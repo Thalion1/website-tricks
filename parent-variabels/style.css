@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.box1 {
+    --background-color: red;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+.box2 {
+    --background-color: blue;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 15px;
+    color: var(--background-color);
+}
